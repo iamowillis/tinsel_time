@@ -1,3 +1,5 @@
+![Tinsel Time — a Christmas-themed Minecraft datapack](./assets/tinsel_time_banner.png)
+
 # Tinsel Time
 A Minecraft Datapack that adds Christmas themed items!
 
