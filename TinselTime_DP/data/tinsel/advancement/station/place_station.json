@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "place_station": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:barrel"
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "components": {
+                "minecraft:custom_data": {
+                  "tinsel": {
+                    "station_item": true
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["place_station"]],
+  "rewards": {
+    "function": "tinsel:northpole_station/detect/tick",
+    "loot": []
+  }
+}

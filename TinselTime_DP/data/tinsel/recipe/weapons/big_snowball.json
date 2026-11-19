@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["SSS", "SSS", "SSS"],
+  "key": { "S": "minecraft:snowball" },
+  "result": {
+    "id": "minecraft:snowball",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "translate": "item.tinsel.big_snowball",
+        "color": "aqua",
+        "italic": false,
+        "fallback": "Big Snowball"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Blankets a 3x3 area with two snow layers",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:item_model": "tinsel:big_snowball",
+      "minecraft:custom_data": {"tinsel":{"item":"big_snowball"}},
+      "minecraft:max_stack_size": 16,
+      "minecraft:enchantment_glint_override": true
+    }
+  }
+}

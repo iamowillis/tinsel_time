@@ -1,0 +1,30 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "merry:font/blizzard_hud.png",
+      "height": 32,
+      "ascent": 23,
+      "chars": ["\ue100"]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\uF100": -127,
+        "\uF101": 29,
+        "\uF102": -64,
+        "\uF103": 36,
+        "\uF104": -1,
+        "\uF105": 0.5,
+        "\uF106": 1,
+        "\uF107": 4,
+        "\uF108": 8,
+        "\uF109": 16,
+        "\uF10a": 32,
+        "\uF10b": 64,
+        "\uF10c": 128,
+        "\uF10d": 256
+      }
+    }
+  ]
+}

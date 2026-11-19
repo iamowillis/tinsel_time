@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tinsel:item/reinforced_permafrost_ingot"
+  }
+}

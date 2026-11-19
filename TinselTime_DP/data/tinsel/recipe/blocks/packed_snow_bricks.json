@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB", 
+    "BIB", 
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:note_block",
+    "I": "minecraft:packed_ice"
+  },
+  "result": {
+    "id": "minecraft:note_block",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Packed Snow Bricks",
+        "color": "aqua",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Snow masonry inlaid with packed ice",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Tinsel Time",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      "minecraft:item_model": "tinsel_time:packed_snow_bricks",
+      "minecraft:block_state": {
+        "instrument": "harp",
+        "note": "2",
+        "powered": "false"
+      },
+      "minecraft:custom_data": {
+        "tinsel": {
+          "block": "packed_snow_bricks",
+          "schema": 2
+        }
+      }
+    }
+  }
+}

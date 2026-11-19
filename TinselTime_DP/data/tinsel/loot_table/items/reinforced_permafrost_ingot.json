@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Reinforced Permafrost Ingot",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Compressed frost bound in an unyielding alloy",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Tinsel Time",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model": "tinsel:reinforced_permafrost_ingot",
+                "minecraft:custom_data": {
+                  "tinsel": {
+                    "id": "reinforced_permafrost_ingot",
+                    "schema": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

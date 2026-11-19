@@ -1,0 +1,6 @@
+function tinsel:snowstorm/random_attempt
+function tinsel:snowstorm/random_attempt
+function tinsel:snowstorm/random_attempt
+function tinsel:snowstorm/random_attempt
+function tinsel:snowstorm/random_attempt
+function tinsel:snowstorm/random_attempt

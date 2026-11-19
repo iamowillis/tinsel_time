@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:note_block"
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "components": {
+                "minecraft:custom_data": {
+                  "tinsel": {
+                    "block": "packed_snow_bricks"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tinsel:blocks/placement/packed_snow_bricks"
+  }
+}

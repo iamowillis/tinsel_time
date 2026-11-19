@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:set_components",
+  "components": {
+    "minecraft:item_name": {
+      "text": "Reinforced Permafrost Block",
+      "color": "dark_aqua",
+      "italic": false
+    },
+    "minecraft:lore": [
+      {
+        "text": "Nine reinforced ingots fused into frozen masonry",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "Tinsel Time",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "minecraft:item_model": "tinsel:reinforced_permafrost_block",
+    "minecraft:block_state": {
+      "instrument": "harp",
+      "note": "3",
+      "powered": "false"
+    },
+    "minecraft:custom_data": {
+      "tinsel": {
+        "block": "reinforced_permafrost_block",
+        "schema": 1
+      }
+    }
+  }
+}

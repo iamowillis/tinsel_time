@@ -1,0 +1,16 @@
+{
+    "condition": "location_check",
+    "predicate": {
+        "block": {
+            "blocks": "minecraft:barrel",
+            "components": {
+                "minecraft:custom_data": {
+                    "tinsel": {
+                        "block": "northpole_station",
+                        "station_item": true
+                    }
+                }
+            }
+        }
+    }
+}

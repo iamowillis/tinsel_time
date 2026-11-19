@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:snow_block"
+        },
+        "title": "Snowy Steps",
+        "description": "Its Tinsel Time! Merry Christmas and good luck!",
+        "background": "minecraft:gui/advancements/backgrounds/adventure",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

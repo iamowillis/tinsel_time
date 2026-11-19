@@ -1,0 +1,1 @@
+function tinsel:weapons/snowball/tick

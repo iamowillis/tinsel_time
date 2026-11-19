@@ -1,6 +1,6 @@
 {
     "pack":{
-        "pack_format":71,
-        "description":"Christmas is comin' to town!"
+        "description":"Christmas is comin' to town!",
+        "pack_format": 121,
     }
 }

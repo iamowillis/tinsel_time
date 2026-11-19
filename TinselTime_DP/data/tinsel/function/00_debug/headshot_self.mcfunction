@@ -1,0 +1,1 @@
+execute at @s positioned ~ ~4 ~ run summon minecraft:snowball ~ ~ ~ {Motion:[0.0d,-1.0d,0.0d]}

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": "minecraft:note_block",
+          "predicates": {
+            "minecraft:custom_data": {
+              "tinsel": {
+                "block": "reinforced_permafrost_block"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tinsel:blocks/placement/reinforced_permafrost"
+  }
+}

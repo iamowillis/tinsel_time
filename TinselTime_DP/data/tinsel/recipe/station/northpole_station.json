@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["B", "T"],
+  "key": {
+    "T": "minecraft:crafting_table",
+    "B": "minecraft:sweet_berries"
+  },
+  "result": {
+    "id": "minecraft:barrel",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.tinsel.northpole_station",
+        "color": "green",
+        "italic": false,
+        "fallback": "North Pole Station"
+      },
+      "minecraft:lore": [
+        {
+            "text": "A strange table fell out of the sky... wut duh heerl??",
+            "color": "gray",
+            "italic": true
+        },
+        {
+          "text": "A workstation for crafting winter materials",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Tinsel Time",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      "minecraft:item_model": "tinsel:northpole_station",
+      "minecraft:custom_data": {
+        "tinsel": {
+          "block": "northpole_station",
+          "station_item":true
+        }
+      }
+    }
+  }
+}

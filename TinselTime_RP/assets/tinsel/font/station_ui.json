@@ -1,0 +1,21 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\ue001": -8
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "tinsel:font/menu_container_temp.png",
+      "height": 114,
+      "ascent": 13,
+      "chars": ["\ue000"]
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:default"
+    }
+  ]
+}

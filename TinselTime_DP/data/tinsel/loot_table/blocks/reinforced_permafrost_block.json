@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:note_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Reinforced Permafrost Block",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Tinsel Time",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model": "tinsel:reinforced_permafrost_block",
+                "minecraft:block_state": {
+                  "instrument": "harp",
+                  "note": "3",
+                  "powered": "false"
+                },
+                "minecraft:custom_data": {
+                  "tinsel": {
+                    "block": "reinforced_permafrost_block",
+                    "schema": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["SS", "SS"],
+  "key": {
+    "S": "minecraft:snow_block"
+  },
+  "result": {
+    "id": "minecraft:note_block",
+    "count": 4,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Snow Bricks",
+        "color": "white",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Bricks tightly packed from frozen snow",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Tinsel Time",
+          "color": "red",
+          "italic": false
+        }
+      ],
+      "minecraft:item_model": "tinsel:snow_bricks",
+      "minecraft:block_state": {
+        "instrument": "harp",
+        "note": "1",
+        "powered": "false"
+      },
+      "minecraft:custom_data": {
+        "tinsel": {
+          "block": "snow_bricks",
+          "schema": 1
+        }
+      }
+    }
+  }
+}

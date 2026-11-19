@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [" I ", "IBI", " I "],
+  "key": {
+    "I": "minecraft:packed_ice",
+    "B": "minecraft:sweet_berries"
+  },
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.tinsel.frozen_mistletoe",
+        "color": "aqua",
+        "italic": false,
+        "fallback": "Frozen Mistletoe"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Right-click to summon a one-minute blizzard",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:item_model": "tinsel:consumable/frozen_mistletoe",
+      "minecraft:custom_data": {"tinsel":{"item":"frozen_mistletoe"}}
+    }
+  }
+}
