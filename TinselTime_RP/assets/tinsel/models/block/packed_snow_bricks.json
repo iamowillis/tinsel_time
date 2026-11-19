@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "side": "ollies_jollies:block/snow_bricks",
-    "top": "ollies_jollies:block/snow_bricks_top",
-    "bottom": "ollies_jollies:block/snow_bricks_bottom"
+    "side": "tinsel:block/packed_snow_bricks",
+    "top": "tinsel:block/packed_snow_bricks",
+    "bottom": "tinsel:block/packed_snow_bricks"
   }
 }
