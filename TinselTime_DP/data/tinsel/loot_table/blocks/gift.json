@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_item_frame",
+          "modifier": {
+            "type": "set_components",
+            "components": {
+              "minecraft:entity_data": {
+                "id": "minecraft:glow_item_frame",
+                "Invisible": true,
+                "Silent": true,
+                "Tags": ["TinselGift", "placed"]
+              },
+              "custom_data": {
+                "tinsel": { "block": "gift" }
+              },
+              "custom_model_data": {
+                "floats": [234.0]
+              },
+              "custom_name": {
+                "translate": "block.tinsel.gift",
+                "italic": false
+              },
+              "lore": [
+                { "text": "" },
+                {
+                  "translate": "tinsel.lore.datapack",
+                  "italic": true,
+                  "color": "blue"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

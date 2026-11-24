@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "merry:item/consumable/frozen_mistletoe"
+    "model": "tinsel:item/consumable/frozen_mistletoe"
   }
 }

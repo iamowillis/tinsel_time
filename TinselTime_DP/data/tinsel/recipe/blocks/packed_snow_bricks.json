@@ -31,7 +31,7 @@
           "italic": false
         }
       ],
-      "minecraft:item_model": "tinsel_time:packed_snow_bricks",
+      "minecraft:item_model": "tinsel:packed_snow_bricks",
       "minecraft:block_state": {
         "instrument": "harp",
         "note": "2",

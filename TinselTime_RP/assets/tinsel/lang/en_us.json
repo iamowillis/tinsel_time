@@ -1,5 +1,30 @@
 {
+  "tinsel.lore.datapack": "Tinsel Time!",
+
+  "block.tinsel.candy_cane": "Candy Cane",
+  "block.tinsel.packed_snow_bricks": "Packed Snow Bricks",
+  "block.tinsel.reinforced_permafrost_block": "Reinforced Permafrost Block",
+  "block.tinsel.snow_bricks": "Snow Bricks",
+  "block.tinsel.gift": "Gift",
+
   "item.tinsel.northpole_station": "North Pole Station",
+  "item.tinsel.big_snowball": "Big Snowball",
+  "item.tinsel.candy_cane": "Candy Cane",
+  "item.tinsel.cryo_core": "Cryo-Core",
   "item.tinsel.frozen_mistletoe": "Frozen Mistletoe",
-  "item.tinsel.big_snowball": "Big Snowball"
+  "item.tinsel.ice_recycler": "Ice Recycler",
+  "item.tinsel.jingle_bells": "Jingle Bells",
+  "item.tinsel.packed_snowball": "Packed Snowball",
+  "item.tinsel.reinforced_permafrost_ingot": "Reinforced Permafrost Ingot",
+  "item.tinsel.santa_hat": "Santa Hat",
+  "item.tinsel.santas_lil_bag": "Santa's Lil' Bag",
+  "item.tinsel.sled": "Sled",
+  "item.tinsel.sled_normal": "Sled",
+  "item.tinsel.snowball_cannon": "Snowball Cannon",
+  "item.tinsel.spirit_of_christmas": "Spirit of Christmas",
+  "item.tinsel.wreath": "Wreath",
+  "item.tinsel.elf_hat": "Elf Hat",
+  "item.tinsel.packed_snow_bricks": "Packed Snow Bricks",
+  "item.tinsel.reinforced_permafrost_block": "Reinforced Permafrost Block",
+  "item.tinsel.snow_bricks": "Snow Bricks"
 }

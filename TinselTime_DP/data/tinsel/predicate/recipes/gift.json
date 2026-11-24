@@ -1,0 +1,21 @@
+{
+    "type": "location_check",
+    "predicate": {
+        "block": {
+            "blocks": "barrel",
+            "nbt": {
+                "Items": [
+                  { "Slot": 1, "id": "minecraft:red_dye" },
+                  { "Slot": 2, "id": "minecraft:paper" },
+                  { "Slot": 3, "id": "minecraft:yellow_dye" },
+                  { "Slot": 10, "id": "minecraft:paper" },
+                  { "Slot": 11, "id": "minecraft:chest" },
+                  { "Slot": 12, "id": "minecraft:paper" },
+                  { "Slot": 19, "id": "minecraft:yellow_dye" },
+                  { "Slot": 20, "id": "minecraft:paper" },
+                  { "Slot": 21, "id": "minecraft:red_dye" }
+                ]
+            }
+        }
+    }
+}

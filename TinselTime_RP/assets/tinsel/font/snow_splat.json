@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "merry:font/snow_splat.png",
+      "file": "tinsel:font/snow_splat.png",
       "ascent": 90,
       "height": 180,
       "chars": ["\ue002"]

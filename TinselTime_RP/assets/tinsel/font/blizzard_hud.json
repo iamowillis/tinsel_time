@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "merry:font/blizzard_hud.png",
+      "file": "tinsel:font/blizzard_hud.png",
       "height": 32,
       "ascent": 23,
       "chars": ["\ue100"]

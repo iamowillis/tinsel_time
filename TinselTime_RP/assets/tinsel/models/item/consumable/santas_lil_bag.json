@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": { "layer0": "tinsel:item/consumable/santas_lil_bag" }
+}
